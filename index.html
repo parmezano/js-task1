@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript tasks</title>
+</head>
+<body>
+<!--        task 1           -->
+<div><p>Задача 1</p><br>
+    <form id="Task1">
+        Введите доход за первый месяц: <input type="text" value="100" name="m1"><br>
+        Введите доход за второй месяц: <input type="text" value="300" name="m2"><br>
+        Введите доход за третий месяц: <input type="text" value="600" name="m3"><br>
+        <button type="submit">Рассчитать</button><br>
+
+    Средний доход: <input type="text" name="average" disabled><br>
+    Налог(13%): <input type="text" name="tax" disabled><br>
+    Сумма к выплате: <input type="text" name="total" disabled><br>
+    <hr>
+    </form>
+</div>
+<!--        task 2           -->
+<div>
+    <p>Задача 2</p>
+    <style>
+        .task2 input {width: 40px;}
+    </style>
+    <form id="Task2" class="task2">
+        Введите координаты первой вершины: (<input type="text" maxlength="5" value="-1" name="x1">;<input type="text" value="-3" maxlength="5" name="y1">)<br>
+        Введите координаты второй вершины: (<input type="text" maxlength="5" value="3" name="x2">;<input type="text" value="4" maxlength="5" name="y2">)<br>
+        Введите координаты третьей вершины: (<input type="text" maxlength="5" value="5" name="x3">;<input type="text" maxlength="5" value="-5" name="y3">)<br>
+        <button type="submit">Рассчитать площадь</button><br>
+
+        Площадь треугольника равна: <input type="text" style="width: 100px" name="s" disabled><br>
+    </form>
+    <hr>
+</div>
+<!--        task 3           -->
+<div>
+    <p>Задача 3</p>
+    <form id="Task3">
+        Введите координаты точки: (<input type="text" value="3" name="x1">;<input type="text" value="4" name="y1">)<br>
+        <button type="submit">Рассчитать площадь</button><br>
+        Расстояние до начала координат: <input type="text" name="length">
+    </form>
+    <hr>
+</div>
+
+<!--        task 4           -->
+
+<div>
+    <p>Задача 4</p>
+    <form id="Task4" >
+        Введите значения двух переменных: <input type="text" value="Name" name="val1">, <input type="text" value="8937" name="val2"><br>
+        <button type="submit">Поменять местами</button>
+    </form>
+    <hr>
+</div>
+
+<!--        task 5           -->
+<div>
+    <p>Задача 5</p>
+    <form id="Task5" >
+        Введите радиус шара: <input type="text" value="5" name="radius"><br>
+        <button type="submit">Рассчитать</button><br>
+        Объём: <input type="text" name="V"><br>
+        Площадь боковой поверхности: <input type="text" name="S">
+    </form>
+    <hr>
+</div>
+
+<!--        task 6           -->
+<div>
+    <p>Задача 6</p>
+    <form id="Task6" >
+        Введите радиус окружности: <input type="text" value="5" name="radius"><br>
+        <button type="submit">Рассчитать</button><br>
+        Длина окружности: <input type="text" name="L"><br>
+        Площадь круга: <input type="text" name="S">
+    </form>
+    <hr>
+</div>
+
+<!--        task 7           -->
+<div>
+    <p>Задача 7</p>
+    <form id="Task7" >
+        Введите координаты окружности: (<input type="text" value="0" name="x1">;<input type="text" value="0" name="y1">)<br>
+        Введите радиус окружности: <input type="text" value="5" name="radius"><br>
+        Введите координаты точки вне окружности: (<input type="text" value="7" name="x2">;<input type="text" value="5" name="y2">)<br>
+        <button type="submit">Рассчитать</button><br>
+        Длина касательной: <input type="text" name="length"><br>
+    </form>
+    <hr>
+</div>
+
+<!--        task 8           -->
+<div>
+    <p>Задача 8</p>
+    <form id="Task8" >
+        Введите координаты первой точки: (<input type="text" value="4" name="x1">;<input type="text" value="5" name="y1">)<br>
+        Введите координаты второй точки: (<input type="text" value="7" name="x2">;<input type="text" value="3" name="y2">)<br>
+        <button type="submit">Рассчитать</button><br>
+        Расстояние между точками: <input type="text" name="length"><br>
+    </form>
+    <hr>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
